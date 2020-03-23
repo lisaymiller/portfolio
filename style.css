@@ -1,0 +1,55 @@
+.bck {
+    background-image: url(background.jpg);
+    background-size: cover;
+}
+
+.jumbotron {
+	background: none;
+}
+
+h1 {
+	font-family: 'Liu Jian Mao Cao', cursive;
+  	text-shadow: 2px 5px white;
+}
+
+p, * {
+	font-family: 'Forum', cursive;'Baloo Da 2', cursive;
+	font-weight: bold;
+
+}
+
+/* unvisited link */
+a:link {
+  color: black;
+}
+
+/* visited link */
+a:visited {
+  color: black;
+}
+
+:root {
+  --mainColor: yellowgreen;
+}
+
+/* mouse over link */
+a:hover {
+  background:
+     linear-gradient(
+       to right,
+       var(--mainColor) 0%,
+       var(--mainColor) 5px,
+       transparent
+     );
+}
+
+/* selected link */
+a:active {
+  color: black;
+}
+
+
+
+
+
+
