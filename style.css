@@ -43,13 +43,10 @@ a:hover {
      );
 }
 
-/* selected link */
-a:active {
-  color: black;
-}
-
-
-
+.form-control:focus {
+        border-color: gray;
+        box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.01) inset, 0px 0px 8px rgba(51, 143, 25, 0.9);
+    }
 
 
 
